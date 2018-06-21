@@ -43,11 +43,11 @@ document.onkeyup = function(event) {
         computerGuess.push(compGuess);
         console.log(computerGuess[0]);
     }
-    if (losses === 10) {
-        alert("you lost!");
-    }
     if (wins === 5) {
-        alert("you won!")
+        alert("You won!");
+    }
+    if (losses === 10) {
+        alert("You lost!");
     }
 
     var html = "<p>Guess what letter I'm thinking of!</p>" +
