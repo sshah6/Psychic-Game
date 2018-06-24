@@ -44,10 +44,10 @@ document.onkeyup = function(event) {
         console.log(computerGuess[0]);
     }
     if (wins === 5) {
-        alert("You won!");
+        alert("WOW!!You won!");
     }
     if (losses === 10) {
-        alert("You lost!");
+        alert("You are a Psycho! Please, visit a doctor ASAP!!!");
     }
 
     var html = "<p>Guess what letter I'm thinking of!</p>" +
